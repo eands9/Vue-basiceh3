@@ -32,6 +32,7 @@ export default {
     async sendmailWMsg(){
       axios
         .post("/api/sendmailwmsg",this.formData)
+        
         .then((response) => {console.log(response)})
     }
   }
